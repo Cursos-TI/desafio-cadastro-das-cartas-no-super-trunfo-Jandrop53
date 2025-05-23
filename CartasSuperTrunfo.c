@@ -1,5 +1,7 @@
-#include <stdio.h> {
+#include <stdio.h>
 
+int main() {
+    
     //Variaveis da primeira carta.
     char estado1[50], cod1[50], nome_cidade1 [50], turisticos1[50];
     float km1, pib1;
@@ -70,6 +72,9 @@
         printf("Área em KM Quadrados: %f\n", km2);
         printf("PIB em Bilhões de Reais: %f\n", pib2);
         printf("Número de Pontos Turisticos %s\n", turisticos2);
+        
 
-    return 0;
+        
+
+
 }
